@@ -83,7 +83,7 @@ public class DatabaseTabelView {
          }
          Connection connection = null;
          try {
-             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/humandatabase","root","hacklab123");
+             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/#schema#","#user#","#pass#");
          } catch (SQLException throwables) {
              throwables.printStackTrace();}
          try {
@@ -336,7 +336,7 @@ public class DatabaseTabelView {
                         }
                         Connection connection3 = null;
                         try {
-                            connection3 = DriverManager.getConnection("jdbc:mysql://localhost:3306/humandatabase", "root", "hacklab123");
+                            connection3 = DriverManager.getConnection("jdbc:mysql://localhost:3306/#schema#", "#user#", "#pass#");
                         } catch (SQLException throwables) {
                             throwables.printStackTrace();
                         }
@@ -396,7 +396,7 @@ public class DatabaseTabelView {
                      }
                      Connection connection = null;
                      try {
-                         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/humandatabase", "root", "hacklab123");
+                         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/#schema#", "#user#", "#pass#");
                      } catch (SQLException throwables) {
                          throwables.printStackTrace();
                      }

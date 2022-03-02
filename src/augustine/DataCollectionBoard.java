@@ -283,7 +283,7 @@ public class DataCollectionBoard {
                 }
                 Connection connection = null;
                 try {
-                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/humandatabase","root","hacklab123");
+                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/#schema#","#user#","#pass#");
                 } catch (SQLException throwables) {
                     throwables.printStackTrace();
                 }

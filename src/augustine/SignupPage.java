@@ -124,7 +124,7 @@ public class SignupPage implements ActionListener  {
                 }
                 Connection connection = null;
                 try {
-                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/signuppage", "root", "hacklab123");
+                    connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/signuppage", "root", "#pass#");
                 } catch (SQLException throwables) {
                     throwables.printStackTrace();
                 }
