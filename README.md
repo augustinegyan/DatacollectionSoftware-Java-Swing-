@@ -1,10 +1,10 @@
-# DatacollectionSoftware-Java-Swing-
+Mi# DatacollectionSoftware-Java-Swing-
 
 This software actually takes simple human data and keeps them in the MySql database server for manipulations.. Such data includes , personal details and images..
 Updates to this repository would be made soon and all messy codes will be dealt with ..
 
 
-This is the Main Page ..
+This is the Main Page 
 
 ![Java module 1(Mainpage)](https://user-images.githubusercontent.com/43218009/156451515-4c8fe179-f337-4f0c-ba52-3202e4f6496e.JPG)
 
